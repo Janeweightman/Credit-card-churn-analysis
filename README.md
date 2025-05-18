@@ -1,4 +1,4 @@
-![Banner showing credit card analysis with charts and graphs, featuring a credit card and financial icons on a blue background. The image conveys a professional and analytical tone. Text in the image reads Credit Card Churn Analysis.](../Credit-card-churn-analysis/image/credit.png)
+(![Banner image with a blue background stating 'Credit Card Churn Analysis'](image-1.png))
 
 This is a short project looking at credit card attrition rates using an ETL(Extract, Transform, Load) pipeline and some visualisations. Churning is the process in which customers switch between banks to get sign up perks(https://www.forbes.com/advisor/credit-cards/what-is-credit-card-churning/) for this analysis we will be looking at general attrition rates. Attrition does not necessarily mean all those who leave are engaging in churning but it can still form the basis for further inquiry. 
 # *Dataset Content*
