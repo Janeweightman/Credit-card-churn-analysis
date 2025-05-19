@@ -16,22 +16,22 @@ Men are more likely to engage in churning than women. This will be tested with a
 ### Result: 
 Women seemed marginally more likely to be attrited customers than men but not to a significant degree.
 ## Hypothesis 3:  
-Attrited Customers will be on the books for less time than the current customers. This will be tested via a scatter plot looking at the distribution of attrited customers and their months on the books
+Attrited Customers will be on the books for less time than the current customers. This will be tested via a scatter plot looking at the distribution of attrited customers and their months on the books.
 ### Result: 
 The months on the books were evenly distributed among both current customers and attrited customers.
 ## Hypothesis 4: 
  Attrited Customers will have lower total transaction amounts than current customers. This is because transactors with regards to credit cards are those that pay off their full bill on time every month accordint to [Investopedia](https://www.investopedia.com/terms/t/transactor.asp) and I believe that those who don't pay their bills on time are more likely to stop using their credit card. This will be tested using a scatter plot and the distribution of attrited customers and their transaction amounts.
 ### Result: 
-Those with low transaction amounts are ideed more likely to be attrited 
+Those with low transaction amounts are ideed more likely to be attrited.
 
 
 # The rationale to map the business requirements to the Data Visualisations
-* *The first visualisation is a pie chart illustrating the attrition rates, this helps identify the scale of the problem. This allows the business to see whether it is worth investing resources into tackling the problem.* 
-* *The second visualisation is a histogram that plots the age distribution with attrition rates. This allows the bank to see whether it is worth targeting different age demographics more with marketing.* 
-* *The third visualisation is a stacked bar chart that plots attrition rates for gender. This allows the bank to potentially determine whether they should pivot their marketing more towards men or women.* 
-* *The fourth visualisation is a scatter plot that visualizes attrition rates and gender with months on the books and total transaction amounts. This type of visualisation has a number of potential business implications for example months on the books with attrition rates could determine perks they give to long term customers and the same could be shown for high transaction amounts.* 
+* The first visualisation is a pie chart illustrating the attrition rates, this helps identify the scale of the problem. This allows the business to see whether it is worth investing resources into tackling the problem.
+* The second visualisation is a histogram that plots the age distribution with attrition rates. This allows the bank to see whether it is worth targeting different age demographics more with marketing.
+* The third visualisation is a stacked bar chart that plots attrition rates for gender. This allows the bank to potentially determine whether they should pivot their marketing more towards men or women.
+* The fourth visualisation is a scatter plot that visualizes attrition rates and gender with months on the books and total transaction amounts. This type of visualisation has a number of potential business implications for example months on the books with attrition rates could determine perks they give to long term customers and the same could be shown for high transaction amounts.
 # Analysis techniques used
-* *Extract Transform load pipeline with data cleaning in Jupyter notebooks*
+* *Extract Transform load pipeline with data cleaning in Jupyter notebooks.*
 * *Visualisations: pie chart, histogram, bar chart and scatter plot.*
 # Ethical considerations
 Financial data is highly sensitive and requires compliance to GDPR and other regulations, however this is just a simple analysis using synthetic freely available data on kaggle so does not have such considerations. 
@@ -48,13 +48,13 @@ Financial data is highly sensitive and requires compliance to GDPR and other reg
 # Development Roadmap
 A struggle I encountered was getting Plotly graphs to work due to NBFormat issues, this was solved using Microsoft co-pilot that required a pip update. 
 # Data Analysis Libraries
-Pandas, Numpy, Plotly, Seabon and Matplotlib
+Pandas, Numpy, Plotly, Seabon and Matplotlib.
 # Credits
-* The Code Institute Learning Management System modules on pandas and data visualisations with Matplotlib,Seaborn and Plotly 
-* Microsoft Copilot integrated into VS code was used to help with code generation and debugging. 
+* The Code Institute Learning Management System modules on pandas and data visualisations with Matplotlib,Seaborn and Plotly.
+* Microsoft Copilot integrated into VS code was used to help with code generation and debugging.
 * Users Daniel and Alvaro Fuentes on [Stack Overflow](https://stackoverflow.com/questions/21572870/percent-label-position-in-pie-chart) regarding percentage markers in Matplotlib pie charts 
-* [Markdown guide](https://www.markdownguide.org/cheat-sheet/) was used to format the README.md and markdown cells in the Jupyter notebooks
+* [Markdown guide](https://www.markdownguide.org/cheat-sheet/) was used to format the README.md and markdown cells in the Jupyter notebooks.
 # Media
-Header image for this document was made using Canva
+Header image for this document was made using [Canva](https://www.canva.com/)
 # Acknowledgements 
 Special thanks to my tutors Emma, Mark, John and Niel from the Code Institute for all their help on the course!
