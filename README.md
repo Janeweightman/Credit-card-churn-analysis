@@ -35,10 +35,10 @@ Those with low transaction amounts are ideed more likely to be attrited.
 * The **first visualisation** is a pie chart illustrating the attrition rates, this helps identify the scale of the problem. This allows the business to see whether it is worth investing resources into tackling the problem.
 * The **second visualisation** is a histogram that plots the age distribution with attrition rates. This allows the bank to see whether it is worth targeting different age demographics more with marketing.
 * The **third visualisation** is a stacked bar chart that plots attrition rates for gender. This allows the bank to potentially determine whether they should pivot their marketing more towards men or women.
-* The **fourth visualisation** is a scatter plot that visualizes attrition rates and gender with months on the books and total transaction amounts. This type of visualisation has a number of potential business implications for example months on the books with attrition rates could determine perks they give to long term customers and the same could be shown for high transaction amounts.
+* The **fourth visualisation** is a scatter plot that visualizes attrition rates and gender with months on the books and total transaction amounts. This type of visualisation has a number of potential business implications for example months on the books with attrition rates could determine perks they give to long term or short term customers and the same could be done for customers with high or low transaction amounts.
 # Analysis techniques used:
-* *Extract Transform load pipeline with data cleaning in Jupyter notebooks.*
-* *Visualisations: pie chart, histogram, bar chart and scatter plot.*
+* Extract Transform load pipeline with data cleaning in Jupyter notebooks.
+* Visualisations: pie chart, histogram, bar chart and scatter plot.
 # Ethical considerations:
 Financial data is highly sensitive and requires compliance to GDPR and other regulations, in order to protect sensitive infomation I have anonymised the data by removing client numbers.
 
