@@ -7,12 +7,12 @@ This is a short project looking at credit card attrition rates using an ETL(Extr
 * [Raw Data](https://github.com/Janeweightman/Credit-card-churn-analysis/blob/main/data/BankChurners.csv)
 * [Cleaned Data](https://github.com/Janeweightman/Credit-card-churn-analysis/blob/main/data/cleaned.csv)
 
-# *Dataset Content*
-Data comes from this [kaggle dataset.](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers)
-# *Business Requirements*
+# *Dataset Content:*
+Data comes from this [kaggle dataset](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers).
+# *Business Requirements:*
 Banks wish to retain customers and a high attrition rate means less profit.
 If we can identify the trends in attrited customers we can potentially lower attrition rates by either changing how the bank operates or by changing the demographics we market to. 
-# *Hypotheses*
+# *Hypotheses:*
 ## Hypothesis 1: 
 Younger people are more likely to take risks with their credit score and will be more likely to engage in risky behaviour such as frequent churning. This will be tested by plotting a histogram that examines the distribution of attrition rates across age ranges. 
 ### Result: 
@@ -31,36 +31,36 @@ The months on the books were evenly distributed among both current customers and
 Those with low transaction amounts are ideed more likely to be attrited.
 
 
-# The rationale to map the business requirements to the Data Visualisations
+# The rationale to map the business requirements to the Data Visualisations:
 * The **first visualisation** is a pie chart illustrating the attrition rates, this helps identify the scale of the problem. This allows the business to see whether it is worth investing resources into tackling the problem.
 * The **second visualisation** is a histogram that plots the age distribution with attrition rates. This allows the bank to see whether it is worth targeting different age demographics more with marketing.
 * The **third visualisation** is a stacked bar chart that plots attrition rates for gender. This allows the bank to potentially determine whether they should pivot their marketing more towards men or women.
 * The **fourth visualisation** is a scatter plot that visualizes attrition rates and gender with months on the books and total transaction amounts. This type of visualisation has a number of potential business implications for example months on the books with attrition rates could determine perks they give to long term customers and the same could be shown for high transaction amounts.
-# Analysis techniques used
+# Analysis techniques used:
 * *Extract Transform load pipeline with data cleaning in Jupyter notebooks.*
 * *Visualisations: pie chart, histogram, bar chart and scatter plot.*
-# Ethical considerations
+# Ethical considerations:
 Financial data is highly sensitive and requires compliance to GDPR and other regulations, in order to protect sensitive infomation I have anonymised the data by removing client numbers.
 
-# Technologies used
+# Technologies used:
 * Visual Studio Code
 * Python 
 * Jupyter notebook
 * Microsoft Co-Pilot 
 
-# Planning
+# Planning:
 * I used github project board to help me plan and keep track of my progress.
 
-# Development Roadmap
+# Development Roadmap:
 A struggle I encountered was getting Plotly graphs to work due to NBFormat issues, this was solved using Microsoft co-pilot that required a pip update. 
-# Data Analysis Libraries
+# Data Analysis Libraries:
 Pandas, Numpy, Plotly, Seabon and Matplotlib.
-# Credits
+# Credits:
 * The Code Institute Learning Management System modules on pandas and data visualisations with Matplotlib,Seaborn and Plotly.
 * Microsoft Copilot integrated into VS code was used to help with code generation and debugging.
-* Users Daniel and Alvaro Fuentes on [Stack Overflow](https://stackoverflow.com/questions/21572870/percent-label-position-in-pie-chart) regarding percentage markers in Matplotlib pie charts 
+* Users Daniel and Alvaro Fuentes on [Stack Overflow](https://stackoverflow.com/questions/21572870/percent-label-position-in-pie-chart) regarding percentage markers in Matplotlib pie charts. 
 * [Markdown guide](https://www.markdownguide.org/cheat-sheet/) was used to format the README.md and markdown cells in the Jupyter notebooks.
-# Media
-Header image for this document was made using [Canva.](https://www.canva.com/)
-# Acknowledgements 
+# Media:
+Header image for this document was made using [Canva](https://www.canva.com/).
+# Acknowledgements: 
 Special thanks to my tutors Emma Lamont, Mark Briscoe, John Rearden and Niel McEwan from the Code Institute for all their help on the course!
