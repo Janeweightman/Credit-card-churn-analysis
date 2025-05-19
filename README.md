@@ -1,8 +1,8 @@
 ![Banner image with a blue background stating 'Credit Card Churn Analysis'](image-1.png)
 
-This is a short project looking at credit card attrition rates using an ETL(Extract, Transform, Load) pipeline and some visualisations. Churning is the process in which customers switch between banks to get sign up perks(https://www.forbes.com/advisor/credit-cards/what-is-credit-card-churning/) for this analysis we will be looking at general attrition rates. Attrition does not necessarily mean all those who leave are engaging in churning but it can still form the basis for further inquiry. 
+This is a short project looking at credit card attrition rates using an ETL(Extract, Transform, Load) pipeline and some visualisations. Churning according to [Forbes](https://www.forbes.com/advisor/credit-cards/what-is-credit-card-churning/) is the process in which customers switch between banks to get sign up perks for this analysis we will be looking at general attrition rates. Attrition does not necessarily mean all those who leave are engaging in churning but it can still form the basis for further inquiry. 
 # *Dataset Content*
-Data comes from this kaggle dataset  https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers 
+Data comes from this [kaggle dataset](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers)
 # *Business Requirements*
 Banks wish to retain customers and a high attrition rate means less profit.
 If we can identify the trends in attrited customers we can potentially lower attrition rates by either changing how the bank operates or by changing the demographics we market to. 
@@ -20,7 +20,7 @@ Attrited Customers will be on the books for less time than the current customers
 ### Result: 
 The months on the books were evenly distributed among both current customers and attrited customers.
 ## Hypothesis 4: 
- Attrited Customers will have lower total transaction amounts than current customers. This is because transactors with regards to credit cards are those that pay off their full bill on time every month (https://www.investopedia.com/terms/t/transactor.asp) and I believe that those who don't pay their bills on time are more likely to stop using their credit card. This will be tested using a scatter plot and the distribution of attrited customers and their transaction amounts.
+ Attrited Customers will have lower total transaction amounts than current customers. This is because transactors with regards to credit cards are those that pay off their full bill on time every month accordint to [Investopedia](https://www.investopedia.com/terms/t/transactor.asp) and I believe that those who don't pay their bills on time are more likely to stop using their credit card. This will be tested using a scatter plot and the distribution of attrited customers and their transaction amounts.
 ### Result: 
 Those with low transaction amounts are ideed more likely to be attrited 
 
@@ -36,6 +36,14 @@ Those with low transaction amounts are ideed more likely to be attrited
 # Ethical considerations
 Financial data is highly sensitive and requires compliance to GDPR and other regulations, however this is just a simple analysis using synthetic freely available data on kaggle so does not have such considerations. 
 
+# Technologies used
+* Visual Studio Code
+* Python 
+* Jupyter notebook
+* Microsoft Co-Pilot 
+
+# Planning
+* I used github project board to help me plan and keep track of my progress 
 
 # Development Roadmap
 A struggle I encountered was getting Plotly graphs to work due to NBFormat issues, this was solved using Microsoft co-pilot that required a pip update. 
@@ -43,10 +51,10 @@ A struggle I encountered was getting Plotly graphs to work due to NBFormat issue
 Pandas, Numpy, Plotly, Seabon and Matplotlib
 # Credits
 * The Code Institute Learning Management System modules on pandas and data visualisations with Matplotlib,Seaborn and Plotly 
-* Microsoft Copilot integrated into VS code.
-* Techniques taught directly from John Rearden from Code institute 
-* Users Daniel and Alvaro Fuentes on Stack Overflow regarding percentage markers in Matplotlib pie charts https://stackoverflow.com/questions/21572870/percent-label-position-in-pie-chart 
+* Microsoft Copilot integrated into VS code was used to help with code generation and debugging. 
+* Users Daniel and Alvaro Fuentes on [Stack Overflow](https://stackoverflow.com/questions/21572870/percent-label-position-in-pie-chart) regarding percentage markers in Matplotlib pie charts 
+* [Markdown guide](https://www.markdownguide.org/cheat-sheet/) was used to format the README.md and markdown cells in the Jupyter notebooks
 # Media
 Header image for this document was made using Canva
 # Acknowledgements 
-Special thanks to my tutors Emma, Mark, John and Niel from the Code Institute!
+Special thanks to my tutors Emma, Mark, John and Niel from the Code Institute for all their help on the course!
