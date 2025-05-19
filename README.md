@@ -1,6 +1,6 @@
 ![Banner image stating 'Credit Card Churn Analysis'](image-1.png)
 
-This is a short project looking at credit card attrition rates using an ETL(Extract, Transform, Load) pipeline and some visualisations. Churning according to [Forbes](https://www.forbes.com/advisor/credit-cards/what-is-credit-card-churning/) is the process in which customers switch between banks to get sign up perks for this analysis we will be looking at general attrition rates. Attrition does not necessarily mean all those who leave are engaging in churning but it can still form the basis for further inquiry. 
+This is a short project looking at credit card attrition rates using an ETL (Extract, Transform, Load) pipeline and some visualisations. Churning according to [Forbes](https://www.forbes.com/advisor/credit-cards/what-is-credit-card-churning/) is the process in which customers switch between banks to get sign up perks for this analysis we will be looking at general attrition rates. Attrition does not necessarily mean all those who leave are engaging in churning but it can still form the basis for further inquiry. 
 ## Navigation:
 * [Data Investigations Notebook](https://github.com/Janeweightman/Credit-card-churn-analysis/blob/main/jupyter_notebooks/Datainvestigations.ipynb)
 * [Visualisations Notebook](https://github.com/Janeweightman/Credit-card-churn-analysis/blob/main/jupyter_notebooks/Visualisations.ipynb)
@@ -49,12 +49,16 @@ Financial data is highly sensitive and requires compliance to GDPR and other reg
 * Microsoft Co-Pilot 
 
 # Planning:
-* I used github project board to help me plan and keep track of my progress.
+* I used a github [project board](https://github.com/users/Janeweightman/projects/3) to help me plan and keep track of my progress.
 
 # Development Roadmap:
 A struggle I encountered was getting Plotly graphs to work due to NBFormat issues, this was solved using Microsoft co-pilot that required a pip update. 
 # Data Analysis Libraries:
-Pandas, Numpy, Plotly, Seabon and Matplotlib.
+* Pandas 
+* Numpy 
+* Plotly 
+* Seabon 
+* Matplotlib
 # Credits:
 * The Code Institute Learning Management System modules on pandas and data visualisations with Matplotlib,Seaborn and Plotly.
 * Microsoft Copilot integrated into VS code was used to help with code generation and debugging.
