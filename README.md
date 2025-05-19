@@ -34,7 +34,7 @@ Those with low transaction amounts are ideed more likely to be attrited.
 * *Extract Transform load pipeline with data cleaning in Jupyter notebooks.*
 * *Visualisations: pie chart, histogram, bar chart and scatter plot.*
 # Ethical considerations
-Financial data is highly sensitive and requires compliance to GDPR and other regulations, however this is just a simple analysis using synthetic freely available data on kaggle so does not have such considerations. 
+Financial data is highly sensitive and requires compliance to GDPR and other regulations, however this is just a simple analysis using synthetic freely available data on kaggle so does not have such considerations.  
 
 # Technologies used
 * Visual Studio Code
