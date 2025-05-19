@@ -60,8 +60,8 @@ A struggle I encountered was getting Plotly graphs to work due to NBFormat issue
 * Seabon 
 * Matplotlib
 # Credits:
-* The Code Institute Learning Management System modules on pandas and data visualisations with Matplotlib,Seaborn and Plotly.
-* Microsoft Copilot integrated into VS code was used to help with code generation and debugging.
+* [The Code Institute](https://codeinstitute.net/) Learning Management System modules on pandas and data visualisations with Matplotlib,Seaborn and Plotly.
+* [Microsoft Copilot](https://copilot.microsoft.com/chats/DTRMhj1obnmDbMp372TXE) integrated into [Visual Studio Code](https://code.visualstudio.com/) was used to help with code generation and debugging.
 * Users Daniel and Alvaro Fuentes on [Stack Overflow](https://stackoverflow.com/questions/21572870/percent-label-position-in-pie-chart) regarding percentage markers in Matplotlib pie charts. 
 * [Markdown guide](https://www.markdownguide.org/cheat-sheet/) was used to format the README.md and markdown cells in the Jupyter notebooks.
 # Media:
