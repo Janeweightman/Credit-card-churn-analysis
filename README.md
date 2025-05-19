@@ -1,6 +1,12 @@
-![Banner image with a blue background stating 'Credit Card Churn Analysis'](image-1.png)
+![Banner image stating 'Credit Card Churn Analysis'](image-1.png)
 
 This is a short project looking at credit card attrition rates using an ETL(Extract, Transform, Load) pipeline and some visualisations. Churning according to [Forbes](https://www.forbes.com/advisor/credit-cards/what-is-credit-card-churning/) is the process in which customers switch between banks to get sign up perks for this analysis we will be looking at general attrition rates. Attrition does not necessarily mean all those who leave are engaging in churning but it can still form the basis for further inquiry. 
+## Navigation:
+* [Data Investigations Notebook](https://github.com/Janeweightman/Credit-card-churn-analysis/blob/main/jupyter_notebooks/Datainvestigations.ipynb)
+* [Visualisations Notebook](https://github.com/Janeweightman/Credit-card-churn-analysis/blob/main/jupyter_notebooks/Visualisations.ipynb)
+* [Raw Data](https://github.com/Janeweightman/Credit-card-churn-analysis/blob/main/data/BankChurners.csv)
+* [Cleaned Data](https://github.com/Janeweightman/Credit-card-churn-analysis/blob/main/data/cleaned.csv)
+
 # *Dataset Content*
 Data comes from this [kaggle dataset.](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers)
 # *Business Requirements*
@@ -34,7 +40,7 @@ Those with low transaction amounts are ideed more likely to be attrited.
 * *Extract Transform load pipeline with data cleaning in Jupyter notebooks.*
 * *Visualisations: pie chart, histogram, bar chart and scatter plot.*
 # Ethical considerations
-Financial data is highly sensitive and requires compliance to GDPR and other regulations, in order to project sensitive infomation I have anonymised the data by removing client numbers.
+Financial data is highly sensitive and requires compliance to GDPR and other regulations, in order to protect sensitive infomation I have anonymised the data by removing client numbers.
 
 # Technologies used
 * Visual Studio Code
@@ -55,6 +61,6 @@ Pandas, Numpy, Plotly, Seabon and Matplotlib.
 * Users Daniel and Alvaro Fuentes on [Stack Overflow](https://stackoverflow.com/questions/21572870/percent-label-position-in-pie-chart) regarding percentage markers in Matplotlib pie charts 
 * [Markdown guide](https://www.markdownguide.org/cheat-sheet/) was used to format the README.md and markdown cells in the Jupyter notebooks.
 # Media
-Header image for this document was made using [Canva](https://www.canva.com/)
+Header image for this document was made using [Canva.](https://www.canva.com/)
 # Acknowledgements 
 Special thanks to my tutors Emma Lamont, Mark Briscoe, John Rearden and Niel McEwan from the Code Institute for all their help on the course!
