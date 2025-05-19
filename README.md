@@ -2,7 +2,7 @@
 
 This is a short project looking at credit card attrition rates using an ETL(Extract, Transform, Load) pipeline and some visualisations. Churning according to [Forbes](https://www.forbes.com/advisor/credit-cards/what-is-credit-card-churning/) is the process in which customers switch between banks to get sign up perks for this analysis we will be looking at general attrition rates. Attrition does not necessarily mean all those who leave are engaging in churning but it can still form the basis for further inquiry. 
 # *Dataset Content*
-Data comes from this [kaggle dataset](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers)
+Data comes from this [kaggle dataset.](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers)
 # *Business Requirements*
 Banks wish to retain customers and a high attrition rate means less profit.
 If we can identify the trends in attrited customers we can potentially lower attrition rates by either changing how the bank operates or by changing the demographics we market to. 
@@ -43,7 +43,7 @@ Financial data is highly sensitive and requires compliance to GDPR and other reg
 * Microsoft Co-Pilot 
 
 # Planning
-* I used github project board to help me plan and keep track of my progress 
+* I used github project board to help me plan and keep track of my progress.
 
 # Development Roadmap
 A struggle I encountered was getting Plotly graphs to work due to NBFormat issues, this was solved using Microsoft co-pilot that required a pip update. 
@@ -57,4 +57,4 @@ Pandas, Numpy, Plotly, Seabon and Matplotlib.
 # Media
 Header image for this document was made using [Canva](https://www.canva.com/)
 # Acknowledgements 
-Special thanks to my tutors Emma, Mark, John and Niel from the Code Institute for all their help on the course!
+Special thanks to my tutors Emma Lamont, Mark Briscoe, John Rearden and Niel McEwan from the Code Institute for all their help on the course!
